@@ -20,7 +20,7 @@ public class Count_Way {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Factorial Number: ");
         int n = sc.nextInt();
-        c.Count(n+1);
+        c.Count(n+1);  // we take n_1 because in factorial value take from zero index but in this value taken from one index.
         System.out.println("Factorial of "+n+" is "+c.result);
     }
 }
